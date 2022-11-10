@@ -26,7 +26,7 @@ app.use(require('./routes/index.js'))
 //! 4 create and start a server
 // let port = 3000
 app.listen(PORT, () => { //arg1 = port , arg2 = cb
-    console.log(`listening on port: ${port}`)
+    console.log(`listening on port: ${PORT}`)
 })
 
 
